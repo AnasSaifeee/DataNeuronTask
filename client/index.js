@@ -4,4 +4,4 @@ module.exports = function() {
 };
 
 module.exports.Resizable = require('./build/Resizable').default;
-module.exports.ResizableBox = require('./build/ResizableBox').default;
+module.exports.ResizableBox = require('./build/ResizableBox').default
