@@ -7,7 +7,7 @@
     "lint": "eslint lib/ __tests__/ setupTests/; flow",
     "test": "jest --coverage",
     "unit": "jest --watch --verbose",
-    "build": "bash build.sh",
+    "build": "webpack",
     "build-example": "webpack",
     "dev": "webpack serve --open",
     "prepublishOnly": "npm run build",
